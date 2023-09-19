@@ -1,0 +1,110 @@
+{
+	"id": "a70bedc7-9d09-4a8b-8c2d-446a86e9ac9b",
+	"name": "S04T01N03",
+	"timestamp": "2023-09-18T21:03:22.131Z",
+	"collection_id": "13383549-b4135869-adb5-4ad2-a5a4-97eca0fb70c7",
+	"folder_id": 0,
+	"environment_id": "13383549-94e30ddb-6163-4952-8d92-35f05da00277",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-18T21:03:21.335Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "243de13c-9327-4cf1-8c6f-c5df4f08b786",
+			"name": "getHelloWorld",
+			"url": "http://localhost:9001/HelloWorld",
+			"time": 5,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				5
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "3aaf89b4-bc84-4003-919a-35eff3ed2cb8",
+			"name": "getHelloWorldNom",
+			"url": "http://localhost:9001/HelloWorld?nom=Fethi",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c6245dd5-c7ce-4f82-9216-c763fd618358",
+			"name": "getHelloWorld2",
+			"url": "http://localhost:9001/HelloWorld2",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "35d993be-3cad-4716-b8df-dbb28eb82c50",
+			"name": "getHelloWorld2Nom",
+			"url": "http://localhost:9001/HelloWorld2/Fethi",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				4
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 16,
+	"collection": {
+		"requests": [
+			{
+				"id": "243de13c-9327-4cf1-8c6f-c5df4f08b786",
+				"method": "GET"
+			},
+			{
+				"id": "3aaf89b4-bc84-4003-919a-35eff3ed2cb8",
+				"method": "GET"
+			},
+			{
+				"id": "c6245dd5-c7ce-4f82-9216-c763fd618358",
+				"method": "GET"
+			},
+			{
+				"id": "35d993be-3cad-4716-b8df-dbb28eb82c50",
+				"method": "GET"
+			}
+		]
+	}
+}
